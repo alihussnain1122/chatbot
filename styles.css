@@ -70,16 +70,16 @@ body{
 .btn:hover{
     background-color: rgba(14, 122, 155, 0.728);
 }
-.chat-container{
+.chat-container {
     width: 100%;
     max-height: calc(100vh - 120px);
-    overflow-y: auto;
+    overflow-y: auto; /* This removes the scrollbar */
     padding: 20px;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
+
 .user-chat-box{
     width: 70%;
     padding: 20px;
