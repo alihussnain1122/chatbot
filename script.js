@@ -5,7 +5,7 @@ let btn=document.querySelector(".btn")
 let userMessage=null
 
 //const Api_url=paste here your api url , you can watch it on my video
-let Api_url='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyB0Y28Z_9xWsPcgpMlT3nVzVw1u50y5YCM'
+let Api_url='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR API KEY'
 function createChatBox(html,className){
 const div=document.createElement("div")
 div.classList.add(className)
